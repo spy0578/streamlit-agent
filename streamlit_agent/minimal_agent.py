@@ -6,7 +6,7 @@ import streamlit as st
 open_api_key = "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"
 
 
-llm = OpenAI(temperature=0, streaming=True)
+llm = OpenAI(openai_api_key=open_api_key, temperature=0, streaming=True)
 tools = load_tools(["ddg-search"])
 agent = initialize_agent(
     tools, llm, agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION, verbose=True
