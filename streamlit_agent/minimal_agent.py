@@ -3,7 +3,7 @@ from langchain.agents import AgentType, initialize_agent, load_tools
 from langchain.callbacks import StreamlitCallbackHandler
 import streamlit as st
 
-open_api_key = "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"
+open_api_key = "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"
 
 
 llm = OpenAI(openai_api_key=open_api_key, temperature=0, streaming=True)
