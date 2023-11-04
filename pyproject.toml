@@ -21,7 +21,6 @@ langchain-experimental = "^0.0.10"
 streamlit = ">=1.26"
 docarray = "^0.38.0"
 hnswlib = "^0.7.0"
-pyaudio = "^0.2.13"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.3.0"
